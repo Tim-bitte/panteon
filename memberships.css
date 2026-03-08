@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 18px;
+    --black: #000;
+    --white: #fff;
+}
+body{
+    background: #fff;
+}
+.orange{
+    color: orange;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__section{
+    padding-top: 2rem;
+}
+.inner__elements{
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 22px;
+    gap: 3rem;
+}
+.text__align{
+    width: 85%;
+    height: 70px;
+    border-bottom: 2px solid grey;
+    gap: 10rem;
+}
+.text__align span a{
+    color: #000;
+    text-decoration: none;
+}
+.align{
+    padding-left: 5rem;
+    gap: 9rem;
+}
+.align__2{
+    padding-left: 4rem;
+    gap: 10rem;
+}
+.text__first__column{
+    flex-direction: column;
+    gap: 5rem;
+}
+.main__section{
+    padding-top: 5rem;
+}

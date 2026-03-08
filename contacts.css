@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 18px;
+    --black: #000;
+    --white: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background: #2b2828;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info__frame{
+    min-width: 20vw;
+    max-height: 600px;
+    padding: 40px 60px;
+    background-color: rgb(49, 49, 49);
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #fff;
+    position: absolute;
+    margin-right: 20%;
+    font-size: 22px;
+    gap: 2rem;
+}
+.img__placement img{
+    width: 100vw;
+}
+.connect__text{
+    flex-direction: row;
+    gap: 5px;
+}
+.connect__text p{
+    color: rgb(155, 155, 155);
+}
+.connect__text span{
+    color: orange;
+}

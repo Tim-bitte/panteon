@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+:root{
+    font-size: 15px;
+    --black: #000;
+    --white: #fff;
+    --min-padding: 5px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, #282727 0%, #6c6197 100%);
+}
+.blue{
+    color: rgb(124, 124, 253);
+}
+.inner__elems{
+    height: 100vh;
+    gap: 1rem;
+}
+.inner__elems h1 a{
+    color: orange;
+    text-decoration: none;
+}
+.inner__elems span{
+    font-size: 30px;
+    color: rgb(246, 250, 249);
+}
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    --black: #000;
+    --white: #fff;
+}
+body{
+    background: #fff;
+}
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orange{
+    color: orange;
+}
+.inner__elements{
+    padding-top: 5rem;
+    gap: 4rem;
+}
+.frame__placement{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.frame{
+    min-width: 250px;
+    max-height: 800px;
+    padding: 25px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    gap: 1rem;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.frame span{
+    color: orange;
+}
+.frame p{
+    color: rgb(190, 189, 189);
+}
+.btn__click{
+    width: 80%;
+    height: 50px;
+    border: 2px solid orange;
+    background-color: inherit;
+    transform: skewX(-10deg);
+}
+.btn__click span a{
+    color: orange;
+    text-decoration: none;
+}
+.btn__click__spec{
+    width: 80%;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    transform: skewX(-10deg);
+}
+.btn__click__spec span{
+    display: inline-block;
+    transform: skewX(10deg);
+    font-size: 0.9rem;
+    color: #fff;
+}
+.btn__click__spec span a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn__click span{
+    display: inline-block;
+    transform: skewX(10deg);
+    font-size: 0.9rem;
+}
