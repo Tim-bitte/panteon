@@ -56,3 +56,9 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
+.arrow__back, .arrow__forward {
+    cursor: pointer;
+    font-size: 2rem;
+    color: #fff;
+    user-select: none;
+}
